@@ -2,6 +2,8 @@ import SearchFilter from "../exercises/1-search-filter";
 import DataFetching from "../exercises/2-data-fetching";
 import TodoLists from "../exercises/3-todo-lists";
 import Calculator from "../exercises/4-calculator";
+import TextAnalyzer from "../exercises/5-text-analyzer";
+import PasswordGenerator from "../exercises/6-password-generator";
 
 export default function Home() {
   return (
@@ -13,7 +15,9 @@ export default function Home() {
       {/* <SearchFilter /> */}
       {/* <DataFetching /> */}
       {/* <TodoLists /> */}
-      <Calculator />
+      {/* <Calculator /> */}
+      {/* <TextAnalyzer /> */}
+      <PasswordGenerator />
     </main>
   );
 }

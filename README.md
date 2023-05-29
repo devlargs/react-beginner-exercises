@@ -38,4 +38,4 @@ import SearchFilter from "../exercises/1-search-filter";
 
 ### Exercises can be found on `exercises` folder
 
-- [x] 1. Search Filter
+- 1. Search Filter

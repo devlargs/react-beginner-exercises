@@ -1,4 +1,6 @@
 import SearchFilter from "../exercises/1-search-filter";
+import DataFetching from "../exercises/2-data-fetching";
+import TodoLists from "../exercises/3-todo-lists";
 
 export default function Home() {
   return (
@@ -7,7 +9,9 @@ export default function Home() {
       <h3>Just import the challenge component from `exercises` folder</h3>
       <hr />
       {/* Import here */}
-      <SearchFilter />
+      {/* <SearchFilter /> */}
+      {/* <DataFetching /> */}
+      <TodoLists />
     </main>
   );
 }

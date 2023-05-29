@@ -1,6 +1,7 @@
 import SearchFilter from "../exercises/1-search-filter";
 import DataFetching from "../exercises/2-data-fetching";
 import TodoLists from "../exercises/3-todo-lists";
+import Calculator from "../exercises/4-calculator";
 
 export default function Home() {
   return (
@@ -11,7 +12,8 @@ export default function Home() {
       {/* Import here */}
       {/* <SearchFilter /> */}
       {/* <DataFetching /> */}
-      <TodoLists />
+      {/* <TodoLists /> */}
+      <Calculator />
     </main>
   );
 }
